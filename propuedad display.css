@@ -1,0 +1,134 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100px;
+    font-size: 20px;
+}
+/* pseudoclases */
+
+.caja1 {
+    margin: 30px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s, height 0.5s;
+    display: block;
+}
+.caja1:hover {
+    padding: 20px;
+    background: darkblue;
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.caja1:link {
+    color: honeydew;
+}
+.caja1:visited {
+    color: rgb(121, 142, 181);
+}
+
+.caja {
+    width: 250px;
+    height: 250px;
+    background: red;
+    margin: 25px;
+    transition: all 1s;
+}
+.caja:active {
+    background: blue;
+    width: 600px;
+}
+
+.caja2 {
+    margin: 25px;
+    background: lightblue;
+    transition: background 1s, padding 0.4s;
+}
+.caja2:focus {
+    background: white;
+    padding: 20px;
+}
+
+.caja3 {
+    margin: 25px;
+}
+.caja3 b:lang(en) {
+    background: red;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pseudoelementos */
+/* 
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+b {
+    padding: 6px;
+    width: 100%;
+}
+b::before {
+    content: "me suscribi";
+    color: white;
+}
+b::after {
+    content: "nintentiendo";
+    color: red;
+    background: #614;
+} */
+/* Display */
+/*  
+b {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid red;
+    background: yellow;
+    display: block;
+}
+*/
+/* Overflow */
+/* float */
+/*  
+.cont {
+    margin: auto;
+    margin-top: 50px;
+    border: 4px solid red;
+    background: grey;
+    width: 50%;
+    padding: 20px;
+}
+.cont p {
+    width: 50%;
+}
+.cont img{  
+    float: left;
+    width: 150px;
+    margin-right: 18px;
+}
+*/
+
