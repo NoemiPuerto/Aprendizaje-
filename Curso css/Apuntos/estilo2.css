@@ -1,0 +1,16 @@
+#color-nose {
+    color: coral;
+}
+h1 {
+    color: crimson;
+}
+.color-red {
+    color: blue;
+}
+[rancio="color-blue"] {
+    color: aqua;
+}
+
+h1 {
+    color: red !important
+}

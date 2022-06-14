@@ -1,0 +1,21 @@
+.titulo-h3{
+    color:red;
+}
+#id-element-for-modify{
+    color: blueviolet;
+}
+[coca="ok"]{
+Color: blueviolet
+}
+h3 p {
+    color: aquamarine;
+}
+.titulo-h2 p {
+    color: rgb(187, 115, 26);
+}
+.titulo-h2 p span {
+    color: blue;
+}
+b:hover{
+    color: aqua;
+}

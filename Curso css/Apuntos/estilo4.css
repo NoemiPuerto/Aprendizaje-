@@ -1,0 +1,93 @@
+/* Medidas */
+ 
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+.contact-form {
+    font-size: 25px;
+    background-color: black;
+    width: 100vw;
+    height: 0vh;
+}
+
+
+/* Propiedades de texto */
+
+.contact-form {
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    line-height: 2;
+    font-weight: 200;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
+
+/* Normalize */
+img {
+    border-style: none;
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* El img, max-width, es una medida relativa para que las imagenes se acomode en todo tipo de dispositivos,
+por ejemplo en celulares la imagen se vera al 100%.
+El box-sizing: border-box, funciona para ajustar una caja a un tamaño especifico y fijo, para que no se vea
+mortificado por otro posible elemento o atributo*/
+
+/* El display in line funciona para poner elemento que ocupan toda una caja, que solo ocupen el tamaño respectivo
+del texto c
+/* Otros atribuos como el largo y el ancho de la caja, no funcionan con el "display: inline" 
+h2 {
+    display: inline;
+    height: 400px;
+    width: 100px;
+}
+p {
+    height: 400px;
+    width: 100px;
+}
+*/
+/* Como lo dice el nombre en ingles el "bakground-color" funciona para agregar un color de fondo, justo en el texto
+del elemento seleccionado.
+Por otro lado el pading se utiliza para saber la "sangria" o la distancia del borde entre el texto y el cuadro 
+(el margen). Se puede seleccionar el pading con los lados especificos, pero si solo pones paging y una medida,
+le dara a todos lo lados el mismo tamaño, pero tambien se pueden agragar de manera conjuta en diferente forma,
+por ejemplo:
+pading: 10px, 20px, 30px, 40px;
+Esto le dara a la medida a cada uno de los lados respectivos, si solo dejamos 2 medidas les dara medidas a los
+costados (derecha e izquierda), si solo le dajamo 3 le dara la medida a la derecha, el top y la izquierda.*/
+h2 {
+    background-color: bisque;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100px;
+    width: 300px;
+    box-sizing: border-box;
+    /* si le damos una medida en heigt y width se deproporcionan las medidas de la caja, por lo que se recomienda
+    que se utilicen tamaños mas grande dependiendo del texto */
+    text-align: center;
+    /* Con el text-align se puede acomodar el texto en la posicion que desees. */
+    /* El margin lo que hace es dar un margen entre caja y caja (tambien se separa de todos lados 10px entre las dos
+    cajas) */
+    margin: 10px;
+    /* "border radius" funciona para redondear la cajas */
+    border-radius: 10px;
+    /* El border por si solo significa que el borde de la caja al cual se le puede brindar tamaño, tipo de borde y
+    color del mismo*/
+    border: 4px solid black;
+    /* Las propiedades del content, padding, border y margin en conjuno forman algo llamado box model, estos
+    tambien tienen un grado de gerarquia*/
+    /* Sombras */
+    box-shadow: 2px 4px 6px 0 black;
+    text-shadow: 2px 2px 7px blueviolet;
+    /* Tranfomr se puede utilizar para rotas por ejemplo o el flip */
+    transform: rotate(-45deg);
+}
+
